@@ -5,24 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Responsive Profile</title>
-    <link type="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
     <header class="header">
-        <h1 ID="name-plate">Dustin Jackson</h1>
-        <nav class="nav">
-            <a href="index.html">About Me</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">Dustin Jackson</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">About Me<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                              <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </div>
+                </nav>
     </header>
 
-    <main class="about-me">
-        <h2>About Me</h2>
-        <img ID="profile-pic" src="assets/images/placeholder.jpg">
-        <p>I'm a super hero with the transcendental powers of playing Dwarf Fortress and watching Star Trek TNG. I'm dipping my toes into web development, loving every small step and giant stride. I have familiarity with HTML and CSS, taking my first peek into Javascript in the next few weeks. If I had to pic a passion, the world of cybersecurity sounds tantilizing and exciting. I look forward to learning anything and everything. I love video games, so I feel like there's a lot of passion bleed from problem solving and engaging with new systems.</p>
+    <main class="portfolio">
+        <h2>Portfolio</h2>
+        <div class="container">
+                <div class="row">
+                  <div class="col-6 col-sm-3">        
+                        <img class="port-pics" src="assets/images/placeholder.jpg">
+                  </div>
+                  <div class="col-6 col-sm-3">
+                        <img class="port-pics" src="assets/images/placeholder.jpg">
+                  </div>
+              
+                  <!-- Force next columns to break to new line -->
+                  <div class="w-100"></div>
+              
+                  <div class="col-6 col-sm-3">
+                        <img class="port-pics" src="assets/images/placeholder.jpg">
+                  </div>
+                  <div class="col-6 col-sm-3">
+                        <img class="port-pics" src="assets/images/placeholder.jpg">
+                  </div>
+                </div>
+              </div>
+    
     </main>
-
+    
     <footer>
             <p ID="copy">Copyright &copy;</p>
     </footer>
