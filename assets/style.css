@@ -1,14 +1,24 @@
-.container-fluid {
-    width: 100%;
+
+.contact {
+    margin-left: 50px;
+    padding-top: 100px;
+    width: 75%;
 }
 
-.col-sm {
 
+#facebook {
+    height: 30px;
+    width: 30px;
 }
+
+#linkedin {
+    height: 30px;
+    width: 30px;
+}
+
 
 .port-pics {
     height: 360px;
     width: 240px;
-    margin: 10px;
     padding: 10px;
 }
