@@ -1,14 +1,40 @@
 
-.contact {
-    margin-left: 50px;
-    padding-top: 100px;
-    width: 75%;
+.about-me {
+    overflow: auto;
 }
 
+#bio {
+    color: slategray;
+    line-height: 1.5;
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+body {
+    background-image: url("../assets/images/greek-vase.png");
+}
+
+
+#comment {
+    height: 250px;
+}
 
 #facebook {
     height: 30px;
     width: 30px;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: slategray;
+}
+
+label {
+    color: slategray;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 #linkedin {
@@ -16,9 +42,57 @@
     width: 30px;
 }
 
+main {
+    background-color: ivory ;
+    border: solid 5px lightseagreen;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 200px;
+    margin-top: 100px;
+    padding: 25px;
+    width: 75%;
+}
 
-.port-pics {
+#name, #email, #comment {
+    width: 100%;
+}
+
+.navbar {
+    border: solid 5px lightseagreen; 
+    border-radius: 10px;
+}
+
+.port-pics, #profile-pic {
+    border-radius: 15px;
     height: 360px;
     width: 240px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     padding: 10px;
+
+}
+
+.portfolio {
+    background-color: ivory ;
+    border: solid 5px lightseagreen;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#profile-pic {
+    float: left;
+    margin-right: 10px; 
+}
+
+#submit {
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 10px;
 }
