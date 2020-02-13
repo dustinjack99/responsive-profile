@@ -4,7 +4,6 @@
 }
 
 #bio {
-    color: slategray;
     line-height: 1.5;
     margin-top: 40px;
     text-align: center;
@@ -26,13 +25,12 @@ body {
 }
 
 h2 {
+    padding-bottom: 15px;
+    padding-top: 15px;
     text-align: center;
-    text-decoration: underline;
-    color: slategray;
 }
 
 label {
-    color: slategray;
     margin-bottom: 25px;
     margin-top: 25px;
 }
@@ -43,7 +41,7 @@ label {
 }
 
 main {
-    background-color: ivory ;
+    background-color: ghostwhite;
     border: solid 5px lightseagreen;
     border-radius: 10px;
     margin: auto;
@@ -62,29 +60,30 @@ main {
     border-radius: 10px;
 }
 
-.port-pics, #profile-pic {
-    border-radius: 15px;
-    height: 360px;
-    width: 240px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    padding: 10px;
-
-}
-
 .portfolio {
-    background-color: ivory ;
+    background-color: ghostwhite;
     border: solid 5px lightseagreen;
     border-radius: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: auto;
     margin-top: 100px;
     margin-bottom: 100px;
+    width: 90%;
+}
+
+.portImages {
+    height: 200px;
+    width: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #profile-pic {
     float: left;
     margin-right: 10px; 
+}
+
+#snakeBlip {
+    text-align: center;
 }
 
 #submit {
