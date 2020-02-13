@@ -206,7 +206,18 @@ function randomRat() {
     rat.style["margin-top"] = `${ranY}px`;
     rat.style["margin-left"] = `${ranX}px`;
     score++;
-    snakeScore.textContent = `Score: ${score}` 
+    snakeScore.textContent = `Score: ${score}`
+    
+    if (score == 5) {
+        let h6 = document.createElement("h6");
+        let p = document.createElement("p");
+        area.replaceWith(h6);
+        snakeText.replaceWith(p);
+        h6.style.textAlign = "center";
+        p.style.textAlign = "center";
+        h6.textContent = "Wasn't that fun? Now check out my other stuff!"
+        p.textContent = `But hey! At least you have ${score} points!`
+    }
 
 }
 
