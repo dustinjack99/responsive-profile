@@ -1,8 +1,4 @@
 
-.about-me {
-    overflow: auto;
-}
-
 #bio {
     line-height: 1.5;
     margin-top: 40px;
@@ -13,7 +9,6 @@
 body {
     background-image: url("../assets/images/greek-vase.png");
 }
-
 
 #comment {
     height: 250px;
@@ -42,10 +37,10 @@ label {
 
 main {
     background-color: ghostwhite;
-    border: solid 5px lightseagreen;
+    border: solid 5px lightslategray;
     border-radius: 10px;
     margin: auto;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
     margin-top: 100px;
     padding: 25px;
     width: 75%;
@@ -56,30 +51,39 @@ main {
 }
 
 .navbar {
-    border: solid 5px lightseagreen; 
+    border: solid 5px lightslategray; 
     border-radius: 10px;
 }
 
 .portfolio {
     background-color: ghostwhite;
-    border: solid 5px lightseagreen;
+    border: solid 5px lightslategray;
     border-radius: 10px;
     margin: auto;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     width: 90%;
 }
 
+#portDiv {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
 .portImages {
+    border-radius: 10px;
+    display: block;
     height: 200px;
     width: 250px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: auto;
+    margin-bottom: 35px;
+
 }
 
 #profile-pic {
-    float: left;
-    margin-right: 10px; 
+    height: 305px;
+    width: 205px;
 }
 
 #snakeBlip {
@@ -87,11 +91,11 @@ main {
 }
 
 #submit {
-    background-color: lightseagreen;
+    background-color: lightslategray;
     border: none;
     border-radius: 10px;
     color: white;
     font-size: 20px;
-    padding: 15px;
+    padding-bottom: 5px;
     margin-top: 10px;
 }
