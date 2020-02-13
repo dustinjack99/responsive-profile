@@ -1,3 +1,14 @@
+.about-me {
+    background-color: ghostwhite;
+    border: solid 5px lightslategray;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    text-align: center;
+    padding: 25px;
+    width: 75%;
+}
 
 #bio {
     line-height: 1.5;
@@ -14,9 +25,18 @@ body {
     height: 250px;
 }
 
+#copy {
+    margin-top: 10px;
+}
+
 #facebook {
     height: 30px;
     width: 30px;
+}
+
+#git {
+    height: 40px;
+    width: 40px;
 }
 
 h2 {
@@ -83,8 +103,11 @@ main {
 }
 
 #profile-pic {
+    border-radius: 15px;
+    display: block;
     height: 305px;
     width: 205px;
+    margin: auto;
 }
 
 #snakeBlip {
