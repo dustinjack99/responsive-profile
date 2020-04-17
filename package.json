@@ -1,0 +1,24 @@
+{
+  "name": "responsive-profile",
+  "version": "1.0.0",
+  "description": "Take 2 at profile, using bootstrap, even if bootstrap is terrible.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dustinjack99/responsive-profile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dustinjack99/responsive-profile/issues"
+  },
+  "homepage": "https://github.com/dustinjack99/responsive-profile#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3",
+    "sass": "^1.26.3"
+  }
+}

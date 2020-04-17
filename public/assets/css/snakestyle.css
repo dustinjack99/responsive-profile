@@ -1,0 +1,28 @@
+#area {
+    border: solid 10px black;
+    border-radius: 10px;
+    width: 85%;
+    height: 310px;
+    margin: auto;
+}
+
+#snake {
+    background-color: blue;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+}
+
+.snaketail {
+    background-color: blue;
+    height: 20px;
+    width: 20px;
+    /* position: absolute; */
+} 
+
+#rat {
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+}
