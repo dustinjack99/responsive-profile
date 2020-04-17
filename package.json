@@ -4,8 +4,7 @@
   "description": "Take 2 at profile, using bootstrap, even if bootstrap is terrible.",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
