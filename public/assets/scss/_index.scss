@@ -1,0 +1,44 @@
+.about-me {
+  #profile-pic {
+    border: 3px solid $card-color;
+    height: 400px;
+    margin-bottom: 30px;
+  }
+
+  text-align: center;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  margin-top: 50px;
+
+  ul {
+    border: solid 8px $card-color;
+    border-radius: 8px;
+    margin: 20px;
+    h3 {
+      background-color: $card-color;
+      padding: 10px;
+    }
+  }
+
+  li {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 15px 0;
+    list-style: none;
+    img {
+      border: none;
+      height: 40px;
+      width: 40px;
+    }
+  }
+  .skill {
+    display: block;
+    line-height: 2;
+    margin-top: 15px;
+    text-align: center;
+  }
+}

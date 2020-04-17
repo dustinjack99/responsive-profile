@@ -7,20 +7,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Responsive Profile</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/fc63d3b05c.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <nav class="">
-        <h4>Dustin Jackson - Web Developer</h4>
-        <ul>
+    <nav class="navHead">
+        <div class="name">
+            <h3>Dustin Jackson</h3>
+            <h4>Web Developer</h4>
+        </div>
+        <ul class="header">
             <li><a class="" href=" index">About Me</a></li>
             <li><a class="" href="portfolio">Portfolio</a></li>
             <li><a class="" href="contact">Contact</a></li>
         </ul>
+        <div class="menu-btn">
+            <i class="fas fa-bars fa-2x"></i>
+        </div>
     </nav>
 
     <main class="contact">
-        <h2>Contact</h2>
+        <h2 class="m-2">Contact</h2>
         <form>
             <label>Name</label>
             <br>
@@ -38,7 +45,7 @@
         </form>
     </main>
 
-    <nav class="">
+    <nav class="footer">
         <p ID="copy">Copyright &copy;</p>
         <a href="https://github.com/dustinjack99">
             <img ID="git" src="assets/images/git-logo.png">
@@ -50,6 +57,9 @@
             <img ID="facebook" src="assets/images/facebook-logo.png">
         </a>
     </nav>
+    <script>
+        document.querySelector(".menu-btn").addEventListener('click', () => document.querySelector(".header").classList.toggle("show"));
+    </script>
 </body>
 
 </html>

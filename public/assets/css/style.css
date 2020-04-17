@@ -1,11 +1,31 @@
+main {
+  border: solid red 5px;
+  margin: 5rem auto;
+  width: 90%;
+}
+main img {
+  border: 5px solid #5e5c5c;
+  border-radius: 10px;
+  height: 200px;
+  width: 280px;
+}
+main img:hover {
+  border: 5px solid black;
+}
+
 nav {
+  background-color: #adeafd;
+  color: #5e5c5c;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  justify-items: center;
+  height: 75px;
+  text-align: center;
 }
 nav img {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
 }
 nav ul {
   display: flex;
@@ -13,6 +33,81 @@ nav ul {
 }
 nav li {
   padding: 15px;
+}
+nav #git {
+  height: 50px;
+  width: 50px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 100px;
+  margin-top: 100px;
+}
+
+.menu-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  z-index: 2;
+  display: none;
+}
+
+.name {
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.navHead {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.about-me {
+  text-align: center;
+}
+.about-me #profile-pic {
+  border: 3px solid #adeafd;
+  height: 400px;
+  margin-bottom: 30px;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  margin-top: 50px;
+}
+.skills ul {
+  border: solid 8px #adeafd;
+  border-radius: 8px;
+  margin: 20px;
+}
+.skills ul h3 {
+  background-color: #adeafd;
+  padding: 10px;
+}
+.skills li {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 15px 0;
+  list-style: none;
+}
+.skills li img {
+  border: none;
+  height: 40px;
+  width: 40px;
+}
+.skills .skill {
+  display: block;
+  line-height: 2;
+  margin-top: 15px;
+  text-align: center;
 }
 
 * {
@@ -38,20 +133,67 @@ a:hover {
   color: black;
 }
 
-main {
-  display: flex;
-  justify-content: center;
+form {
+  border: solid red 5px;
+  background-color: #adeafd;
   margin: auto;
-  width: 90%;
+  width: 80%;
 }
-main img {
-  border: 5px solid #808080;
-  border-radius: 10px;
-  height: 200px;
-  width: 280px;
+
+@media (max-width: 850px) {
+  .about-me .skills {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
-main img:hover {
-  border: 5px solid black;
+@media (max-width: 700px) {
+  .header {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #adeafd;
+    width: 50%;
+    height: 100%;
+    border-right: #ccc 1px solid;
+    opacity: 0.9;
+    padding: 30px;
+    transform: translateX(-500px);
+    transition: transform 0.5s ease-in-out;
+  }
+  .header li {
+    padding: #ccc solid 1px;
+  }
+
+  .header.show {
+    transform: translateX(-20px);
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .menu-btn:hover {
+    opacity: 0.5;
+  }
+
+  .navHead {
+    display: grid;
+    grid-template-columns: repeat 2, 1fr;
+  }
+}
+@media (max-width: 530px) {
+  .about-me li {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    margin: 10px 0;
+  }
+}
+@media (max-width: 350px) {
+  #profile-pic {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

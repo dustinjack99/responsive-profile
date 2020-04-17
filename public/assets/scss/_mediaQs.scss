@@ -1,0 +1,62 @@
+@media (max-width: 850px) {
+  .about-me {
+    .skills {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .header {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: $card-color;
+    width: 50%;
+    height: 100%;
+    border-right: #ccc 1px solid;
+    opacity: 0.9;
+    padding: 30px;
+    transform: translateX(-500px);
+    transition: transform 0.5s ease-in-out;
+    li {
+      padding: #ccc solid 1px;
+    }
+  }
+
+  .header.show {
+    transform: translateX(-20px);
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .menu-btn:hover {
+    opacity: 0.5;
+  }
+
+  .navHead {
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);
+  }
+}
+
+@media (max-width: 530px) {
+  .about-me {
+    li {
+      display: grid;
+      justify-items: center;
+      grid-template-columns: 1fr;
+      margin: 10px 0;
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  #profile-pic {
+    display: none;
+  }
+}

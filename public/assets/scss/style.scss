@@ -1,5 +1,9 @@
-@import "navbar";
 @import "config";
+@import "main";
+@import "navbar";
+@import "index";
+@import "portfolio";
+@import "contact";
 
 * {
   box-sizing: border-box;
@@ -24,18 +28,12 @@ a:hover {
   color: black;
 }
 
-main {
-  img {
-    border: 5px solid $text-color;
-    border-radius: 10px;
-    height: 200px;
-    width: 280px;
-  }
-  img:hover {
-    border: 5px solid black;
-  }
-  display: flex;
-  justify-content: center;
+form {
+  border: $b-test;
+
+  background-color: $card-color;
   margin: auto;
-  width: 90%;
+  width: 80%;
 }
+
+@import "mediaQs";
